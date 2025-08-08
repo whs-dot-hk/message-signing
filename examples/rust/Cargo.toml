@@ -4,5 +4,7 @@ version = "1.0.0"
 edition = "2018"
 
 [dependencies]
-cardano-message-signing = { path = "../../rust" }
-cardano-serialization-lib = "7.0.0"
+cardano-serialization-lib = "15.0.0"
+bip39 = "2.2"
+hex = "0.4"
+serde_cbor = "0.11"
